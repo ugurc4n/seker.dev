@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Redacted Script
+- Font Author: Copyright 2013 The Redacted Project Authors (https://github.com/christiannaths/redacted-font)
+- Font Source: http://fonts.gstatic.com/s/redactedscript/v7/ypvBbXGRglhokR7dcC3d1-R6zmxSsWTxkZkr_g.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
