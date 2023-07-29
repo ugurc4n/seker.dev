@@ -14,7 +14,7 @@ function Biography() {
           <h2 className='text-[#FBFBFB] text-xl/8 lg:text-[28px]/[72px] tracking-[1px] font-bold text-center lg:text-left'>
             Biografi
           </h2>
-          <div className='text-[#D6D6D6] text-sm/6 lg:text-lg/8 font-normal max-w-fit lg:max-w-none lg:w-[500px]'>
+          <div className='text-[#D6D6D6] text-sm/6 md:text-center lg:text-left lg:text-lg/8 font-normal max-w-fit lg:max-w-none lg:w-[500px]'>
             2 seneyi aşkın süredir Frontend geliştirici olarak çalışıyorum.
             Şu anda <span className='text-[#386abc]'>BluTV</span> bünyesi altında çalışmaktayım. Projelerimde Genellikle <span className='next-text'>Next.js</span>, <span className='text-[#764ABC]'>Redux Toolkit</span> ve <span className='text-sky-500'>TailwindCSS</span> kullanmaktayım.
           </div>
