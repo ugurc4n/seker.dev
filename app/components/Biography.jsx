@@ -12,7 +12,7 @@ function Biography() {
         </div>
         <div className='lg:ml-9 mx-6 mt-16 lg:mt-0'>
           <h2 className='text-[#FBFBFB] text-xl/8 lg:text-[28px]/[72px] tracking-[1px] font-bold text-center lg:text-left'>
-            Biografi
+            Biyografi
           </h2>
           <div className='text-[#D6D6D6] text-sm/6 md:text-center lg:text-left lg:text-lg/8 font-normal max-w-fit lg:max-w-none lg:w-[500px]'>
             2 seneyi aşkın süredir Frontend geliştirici olarak çalışıyorum.
