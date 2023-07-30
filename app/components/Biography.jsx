@@ -16,7 +16,7 @@ function Biography() {
           </h2>
           <div className='text-[#D6D6D6] text-sm/6 md:text-center lg:text-left lg:text-lg/8 font-normal max-w-fit lg:max-w-none lg:w-[500px]'>
             2 seneyi aşkın süredir Frontend geliştirici olarak çalışıyorum.
-            Şu anda <span className='text-[#386abc]'>BluTV</span> bünyesi altında çalışmaktayım. Projelerimde Genellikle <span className='next-text'>Next.js</span>, <span className='text-[#764ABC]'>Redux Toolkit</span> ve <span className='text-sky-500'>TailwindCSS</span> kullanmaktayım.
+            Şu anda <span className='text-[#386abc]'>BluTV</span> bünyesinde çalışmaktayım. Projelerimde Genellikle <span className='next-text'>Next.js</span>, <span className='text-[#764ABC]'>Redux Toolkit</span> ve <span className='text-sky-500'>TailwindCSS</span> kullanmaktayım.
           </div>
         </div>
       </div>
