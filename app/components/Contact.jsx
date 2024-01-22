@@ -14,6 +14,7 @@ function Contact() {
           <div className='mr-4'>
             <a href='mailto:ugur@seker.dev' target='_blank'>
               <Image
+                alt='mail'
                 src={Mail}
                 width={30}
                 height={30}
@@ -23,6 +24,7 @@ function Contact() {
           <div className='mr-4'>
             <a href='https://www.linkedin.com/in/ugur-seker/' target='_blank'>
               <Image
+                alt='linkedin'
                 src={Linkedin}
                 width={30}
                 height={30}
@@ -32,6 +34,7 @@ function Contact() {
           <div className='mr-4'>
             <a href='https://www.instagram.com/uguurseker' target='_blank'>
               <Image
+                alt='instagram'
                 src={Instagram}
                 width={30}
                 height={30}
@@ -41,6 +44,7 @@ function Contact() {
           <div>
             <a href='https://twitter.com/ugurseker0' target='_blank'>
               <Image
+                alt='twitter'
                 src={Twitter}
                 width={30}
                 height={30}

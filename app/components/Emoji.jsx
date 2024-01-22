@@ -9,12 +9,14 @@ function Emoji() {
       <div className='flex justify-center items-center'>
         <div className='absolute'>
           <Image
+            alt='emoji'
             src={UgurEmo}
             width={124}
             height={124}
           />
         </div>
         <Image
+          alt='ellipse'
           src={Ellipse}
           width={155}
           height={155}
