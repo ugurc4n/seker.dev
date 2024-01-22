@@ -6,7 +6,7 @@ import Contact from './Contact'
 function Biography() {
   return (
     <div className='lg:mx-36 lg:mt-16 lg:flex lg:justify-between lg:items-center '>
-      <div className='cover-emoji lg:relative lg:w-max lg:flex lg:items-center'>
+      <div className='cover-emoji lg:relative lg:w-max lg:flex lg:items-center text-center'>
         <div className='hidden lg:block'>
           <Emoji />
         </div>
