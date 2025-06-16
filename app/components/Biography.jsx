@@ -3,6 +3,13 @@ import '../globals.css'
 import Emoji from './Emoji'
 import Contact from './Contact'
 
+/**
+ * Renders a responsive biography section with styled text, an emoji illustration, and contact information.
+ *
+ * Displays a brief professional biography, highlighting frontend development experience and technologies used, with visual enhancements for large screens.
+ *
+ * @returns {JSX.Element} The rendered biography component.
+ */
 function Biography() {
   useEffect(() => {
   }, [])
