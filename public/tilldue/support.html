@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Destek · Kalan / Tilldue</title>
+<meta name="description" content="Kalan / Tilldue destek ve sık sorulan sorular — Tilldue support and FAQ">
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1c1c1e;
+    --muted: #6c6c70;
+    --line: #e5e5ea;
+    --card: #f2f2f7;
+    --accent: #0a7d5a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #000000;
+      --fg: #f2f2f7;
+      --muted: #98989f;
+      --line: #2c2c2e;
+      --card: #1c1c1e;
+      --accent: #34c38f;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #000000;
+    --fg: #f2f2f7;
+    --muted: #98989f;
+    --line: #2c2c2e;
+    --card: #1c1c1e;
+    --accent: #34c38f;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+  }
+  main { max-width: 680px; margin: 0 auto; padding: 32px 16px 64px; }
+  header { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 28px; }
+  .brand { font-weight: 600; font-size: 15px; color: var(--muted); }
+  .lang { display: inline-flex; background: var(--card); border-radius: 9px; padding: 2px; }
+  .lang button {
+    border: 0; background: transparent; color: var(--muted);
+    font: inherit; font-size: 14px; font-weight: 600;
+    padding: 5px 12px; border-radius: 7px; cursor: pointer;
+  }
+  .lang button[aria-pressed="true"] { background: var(--bg); color: var(--fg); box-shadow: 0 1px 2px rgba(0,0,0,.12); }
+  h1 { font-size: 32px; line-height: 1.15; margin: 0 0 6px; letter-spacing: -0.02em; }
+  .lede { color: var(--muted); margin: 0 0 24px; }
+  .contact { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 0 0 32px; }
+  .contact p { margin: 0; }
+  .contact a { font-weight: 600; }
+  h2 { font-size: 20px; margin: 32px 0 8px; letter-spacing: -0.01em; }
+  details { border-bottom: 1px solid var(--line); padding: 12px 0; }
+  details:first-of-type { border-top: 1px solid var(--line); }
+  summary { cursor: pointer; font-weight: 600; list-style: none; display: flex; justify-content: space-between; gap: 12px; }
+  summary::-webkit-details-marker { display: none; }
+  summary::after { content: "+"; color: var(--muted); font-weight: 400; }
+  details[open] summary::after { content: "–"; }
+  details > div { padding-top: 8px; }
+  p, li { margin: 0 0 10px; }
+  ul, ol { padding-left: 20px; margin: 0 0 10px; }
+  a { color: var(--accent); }
+  footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; display: flex; gap: 16px; flex-wrap: wrap; }
+  [data-lang] { display: none; }
+  html[lang="tr"] [data-lang="tr"], html[lang="en"] [data-lang="en"] { display: block; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <span class="brand">Kalan · Tilldue</span>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-set="tr" aria-pressed="true">TR</button>
+      <button type="button" data-set="en" aria-pressed="false">EN</button>
+    </div>
+  </header>
+
+  <!-- TÜRKÇE -->
+  <article data-lang="tr">
+    <h1>Destek</h1>
+    <p class="lede">Garanti, belge, abonelik, gıda ve ilaçların bitiş tarihlerini takip eden Kalan için yardım.</p>
+
+    <div class="contact">
+      <p>Sorun, öneri ya da hata bildirimi için: <a href="mailto:ugur@seker.dev?subject=Kalan%20destek">ugur@seker.dev</a><br>Genelde 1–2 iş günü içinde dönüyorum. Yazarken iOS sürümünü ve sorunu kısaca anlatman yeterli.</p>
+    </div>
+
+    <h2>Sık sorulan sorular</h2>
+
+    <details>
+      <summary>Ücretsiz sürümde neler var?</summary>
+      <div>
+        <p>Ücretsiz sürümde 10 aktif kayıt tutabilir ve her kayıt için bir hatırlatma kurabilirsin. Arşivlenen ya da kullanılıp biten kayıtlar bu 10'a sayılmaz.</p>
+        <p>Kalan Pro; sınırsız kayıt, kayıt başına birden fazla hatırlatma (ör. pasaport bitmeden 3 ay ve 2 hafta önce) ve yedeği dışa aktarma ekler.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>Satın aldım ama Pro görünmüyor / yeni telefona geçtim</summary>
+      <div>
+        <p>Uygulamada <strong>Ayarlar → Satın alımları geri yükle</strong>'ye dokun. Satın alımı yaptığın Apple hesabıyla giriş yapmış olman gerekir. İnternet bağlantısı açık olmalı.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>Aboneliğimi nasıl iptal ederim?</summary>
+      <div>
+        <p>iPhone'da <strong>Ayarlar → [adın] → Abonelikler → Kalan Pro</strong> bölümünden iptal edebilirsin. İptal, dönem bitmeden en az 24 saat önce yapılmalıdır; mevcut dönemin sonuna kadar Pro açık kalır.</p>
+        <p>Ömür boyu (tek seferlik) satın alım bir abonelik değildir, yenilenmez ve iptal gerektirmez.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>İade alabilir miyim?</summary>
+      <div>
+        <p>Ödemeleri Apple aldığı için iadeleri de Apple yönetir. <a href="https://reportaproblem.apple.com" rel="noopener">reportaproblem.apple.com</a> adresinden talep oluşturabilirsin.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>Hatırlatmalar gelmiyor</summary>
+      <div>
+        <ol>
+          <li>iPhone'da <strong>Ayarlar → Bildirimler → Kalan</strong> bölümünden bildirimlerin açık olduğunu kontrol et.</li>
+          <li>Uygulamada <strong>Ayarlar → Bildirim saati</strong>'ne bak; hatırlatmalar o saatte gelir.</li>
+          <li>Odak / Rahatsız Etme modu açıksa bildirimler susturulabilir.</li>
+        </ol>
+        <p>iOS bir uygulamanın aynı anda en fazla 64 bekleyen bildirimine izin verir. Kalan, en yakın 60 hatırlatmayı planlar ve uygulamayı her açtığında listeyi yeniler; çok sayıda kaydın varsa uygulamayı ara sıra açman yeterli.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>Verilerim nerede duruyor? Yeni telefona nasıl taşırım?</summary>
+      <div>
+        <p>Kayıtların ve fotoğrafların yalnızca cihazında durur; bizim bir sunucumuz yok. Taşımanın iki yolu var:</p>
+        <ul>
+          <li><strong>iCloud yedeği:</strong> iPhone'unun iCloud yedeği açıksa, yeni telefonu bu yedekten kurduğunda kayıtların da gelir.</li>
+          <li><strong>Elle yedek (Pro):</strong> <strong>Ayarlar → Yedeği dışa aktar</strong> ile tek bir dosya oluştur, iCloud Drive'a ya da AirDrop ile yeni telefona gönder. Yeni telefonda <strong>Ayarlar → Yedekten geri yükle</strong>'yi seç. Geri yükleme ücretsiz sürümde de çalışır.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details>
+      <summary>Verilerimi nasıl silerim?</summary>
+      <div>
+        <p>Bir kaydı silmek için kaydı aç ve sil. Tüm verileri silmek için uygulamayı telefondan kaldırman yeterli. Satın alma kayıtlarının RevenueCat'ten silinmesini istersen bize yaz. Ayrıntılar için <a href="/tilldue/privacy#tr">gizlilik politikası</a>.</p>
+      </div>
+    </details>
+  </article>
+
+  <!-- ENGLISH -->
+  <article data-lang="en">
+    <h1>Support</h1>
+    <p class="lede">Help for Tilldue, the app that tracks when your warranties, documents, subscriptions, food and medicine run out.</p>
+
+    <div class="contact">
+      <p>Questions, ideas or bug reports: <a href="mailto:ugur@seker.dev?subject=Tilldue%20support">ugur@seker.dev</a><br>I usually reply within 1–2 business days. Mention your iOS version and a short description of the problem.</p>
+    </div>
+
+    <h2>Frequently asked questions</h2>
+
+    <details>
+      <summary>What's included for free?</summary>
+      <div>
+        <p>The free version holds 10 active items with one reminder per item. Archived and used-up items don't count toward the 10.</p>
+        <p>Tilldue Pro adds unlimited items, multiple reminders per item (for example, 3 months and again 2 weeks before a passport expires) and backup export.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>I bought Pro but it isn't showing / I switched phones</summary>
+      <div>
+        <p>Tap <strong>Settings → Restore Purchases</strong> in the app. Make sure you're signed in with the Apple Account you used to buy, and that you're online.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>How do I cancel my subscription?</summary>
+      <div>
+        <p>On your iPhone, go to <strong>Settings → [your name] → Subscriptions → Tilldue Pro</strong>. Cancel at least 24 hours before the period ends; Pro stays active until the end of the current period.</p>
+        <p>The Lifetime purchase is a one-time payment, not a subscription. It never renews and doesn't need cancelling.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>Can I get a refund?</summary>
+      <div>
+        <p>Apple processes payments, so refunds are handled by Apple. You can request one at <a href="https://reportaproblem.apple.com" rel="noopener">reportaproblem.apple.com</a>.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>Reminders aren't arriving</summary>
+      <div>
+        <ol>
+          <li>Check that notifications are on in <strong>iPhone Settings → Notifications → Tilldue</strong>.</li>
+          <li>Check <strong>Settings → Reminder Time</strong> in the app; reminders arrive at that time.</li>
+          <li>A Focus or Do Not Disturb mode can silence notifications.</li>
+        </ol>
+        <p>iOS allows an app at most 64 pending notifications. Tilldue schedules the nearest 60 reminders and refreshes the list every time you open the app, so if you track a lot of items, just open it now and then.</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>Where is my data stored? How do I move it to a new phone?</summary>
+      <div>
+        <p>Your items and photos stay on your device; we have no servers. There are two ways to move them:</p>
+        <ul>
+          <li><strong>iCloud Backup:</strong> if iCloud Backup is on, setting up your new iPhone from that backup brings your items along.</li>
+          <li><strong>Manual backup (Pro):</strong> use <strong>Settings → Export Backup</strong> to create a single file, save it to iCloud Drive or AirDrop it to the new phone, then choose <strong>Settings → Restore from Backup</strong> there. Restoring also works in the free version.</li>
+        </ul>
+      </div>
+    </details>
+
+    <details>
+      <summary>How do I delete my data?</summary>
+      <div>
+        <p>Open an item and delete it to remove that item. To remove everything, delete the app from your phone. To have purchase records removed from RevenueCat, email us. See the <a href="/tilldue/privacy#en">privacy policy</a> for details.</p>
+      </div>
+    </details>
+  </article>
+
+  <footer>
+    <span>© 2026 Uğur Şeker</span>
+    <a href="/tilldue/privacy" id="privacy-link">Gizlilik · Privacy</a>
+  </footer>
+</main>
+<script>
+  (function () {
+    var root = document.documentElement;
+    var buttons = document.querySelectorAll('.lang button');
+    var privacy = document.getElementById('privacy-link');
+    function set(lang) {
+      root.lang = lang;
+      document.title = lang === 'tr' ? 'Destek · Kalan' : 'Support · Tilldue';
+      privacy.href = '/tilldue/privacy#' + lang;
+      privacy.textContent = lang === 'tr' ? 'Gizlilik politikası' : 'Privacy policy';
+      buttons.forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.set === lang)); });
+    }
+    var hash = location.hash.replace('#', '');
+    var initial = hash === 'en' || hash === 'tr' ? hash
+      : ((navigator.language || 'en').toLowerCase().indexOf('tr') === 0 ? 'tr' : 'en');
+    set(initial);
+    buttons.forEach(function (b) {
+      b.addEventListener('click', function () { set(b.dataset.set); history.replaceState(null, '', '#' + b.dataset.set); });
+    });
+  })();
+</script>
+</body>
+</html>
